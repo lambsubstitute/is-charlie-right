@@ -1,2 +1,2 @@
-# is charlie right
- 
+# IsCharlieRight
+ property price assesment based on sold properties
