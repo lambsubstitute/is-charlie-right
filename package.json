@@ -13,6 +13,7 @@
     "electron": "^26.2.0"
   },
   "dependencies": {
-    "fund": "^1.0.0"
+    "fund": "^1.0.0",
+    "playwright": "^1.38.1"
   }
 }

@@ -1,9 +1,11 @@
 describe('Analyze property market data by month', () => {
     before(() => {
         //let baseUrl = 'https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E1421293&radius=1.0&sortType=6&propertyTypes=&includeSSTC=true&mustHave=&dontShow=&furnishTypes=&keywords='
-        //let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E1421293&maxBedrooms=10&minBedrooms=0&radius=10.0&sortType=6&propertyTypes=semi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
+        let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E1421293&maxBedrooms=10&minBedrooms=0&radius=10.0&sortType=6&propertyTypes=semi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
         //let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E4701156&maxBedrooms=10&minBedrooms=0&radius=10.0&sortType=6&propertyTypes=detached%2Cflat%2Csemi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
-        let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=OUTCODE%5E2285&maxBedrooms=10&minBedrooms=0&radius=15.0&sortType=6&propertyTypes=detached%2Cflat%2Csemi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
+        //let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=OUTCODE%5E2285&maxBedrooms=10&minBedrooms=0&radius=15.0&sortType=6&propertyTypes=detached%2Cflat%2Csemi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
+        //let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E1421293&maxBedrooms=3&minBedrooms=2&maxPrice=475000&radius=15.0&sortType=6&propertyTypes=semi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
+        //let baseUrl = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=POSTCODE%5E1421293&maxBedrooms=4&minBedrooms=2&maxPrice=450000&radius=15.0&sortType=6&propertyTypes=semi-detached%2Cterraced&includeSSTC=true&mustHave=&dontShow=newHome%2Cretirement%2CsharedOwnership&furnishTypes=&keywords="
         // Visit the specified URL
         cy.visit(baseUrl);
 
